@@ -1,5 +1,5 @@
 .\" Manpage for _printf.
-.TH _printf 3 "12th July 2022" "1.0" "Program Manual for _printf"
+.TH _printf 3 "12 July 2022" "1.0" "Program Manual for _printf"
 .SH NAME
  _printf - formatted output conversion and print data.
 .SH SYNOPSIS
@@ -10,6 +10,7 @@
 .BI "#include <stdarg.h>"
 .BI "#include <unistd.h>"
 .PP
+.B
 .BI "int _printf(const char *format, ...);"
 .BI "int print_prg(va_list __attribute__((unused)), char *, unsigned int);"
 .BI "int print_chr(va_list arguments, char *buf, unsigned int ibuf);"
@@ -105,8 +106,9 @@ The character \fI%\fR is followed by zero the following flags:
 
 #include ''main.h''
 /**
-* main - print length
-* Return: 0
+* main - Print string
+*
+* Return: 0.
 */
 int main(void)
 
@@ -126,4 +128,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-JOSHUA TULASI AND PRECIOUS OLONISAYE
+Written by Joshua Tulasi and Precious Olonisaye
