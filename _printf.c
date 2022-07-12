@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * _printf - formatted output converion and print data
+ * _printf - formatted output conversion and print data.
  * @format: input string.
  *
- * Return: number of char printed
+ * Return: number of chars printed.
  */
 int _printf(const char *format, ...)
 {
@@ -13,7 +14,7 @@ int _printf(const char *format, ...)
 	char *buffer;
 
 	va_start(arguments, format), buffer = malloc(sizeof(char) * 1024);
-	if (!format || !buffer || (format[i] == '%' !format[i + 1]))
+	if (!format || !buffer || (format[i] == '%' && !format[i + 1]))
 		return (-1);
 	if (!format[i])
 		return (0);
@@ -22,7 +23,7 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			if (format[i + 1] == '\0')
-			{	print_bu(buffer, ibuf), free(buffer), va_end(arguments);
+			{	print_buf(buffer, ibuf), free(buffer), va_end(arguments);
 				return (-1);
 			}
 			else
