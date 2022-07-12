@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - formatted output conversion and print data.
+ * _printf - converting formatted output and prints data.
  * @format: input string.
  *
  * Return: number of chars printed.
