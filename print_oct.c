@@ -2,7 +2,7 @@
 /**
  * print_oct - prints decimal number in octal
  * @arguments: input number
- * @buf: buffer pointer
+ * @buf: pointer to a buffer 
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
