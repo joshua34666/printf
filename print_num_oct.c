@@ -3,7 +3,7 @@
  * prinnoct - print the number in octal begining with zero
  * @arguments: input string
  * @buf: buffer pointer
- * @ibuf: index for buffer pointer
+ * @ibuf: index for pointer to buffer
  * Return: number of chars printed
  */
 int prinnoct(va_list arguments, char *buf, unsigned int ibuf)
