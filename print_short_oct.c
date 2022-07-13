@@ -2,7 +2,7 @@
 /**
  * prinhoct - prints long decimal number in octal
  * @arguments: input number
- * @buf: buffer pointer
+ * @buf:pointer for buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
