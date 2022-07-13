@@ -2,7 +2,7 @@
 /**
  * prinlhex - prints a long decimal in hexadecimal
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
