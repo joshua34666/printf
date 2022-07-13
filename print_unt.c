@@ -2,7 +2,7 @@
 /**
  * print_unt - prints an unsigned int
  * @arguments: number to print
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
