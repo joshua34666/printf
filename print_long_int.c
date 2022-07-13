@@ -3,7 +3,7 @@
  * prinlint - prints a long integer
  * @arguments: input string
  * @buf: buffer pointer
- * @ibuf: index for buffer pointer
+ * @ibuf: index for pointer to buffer
  * Return: number of chars printed.
  */
 int prinlint(va_list arguments, char *buf, unsigned int ibuf)
