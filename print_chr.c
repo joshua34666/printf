@@ -3,8 +3,8 @@
 /**
  * print_chr - writes the character c to stdout
  * @arguments: input char
- * @buf: buffer pointer
- * @ibuf: index for buffer pointer
+ * @buf: pointer to buffer
+ * @ibuf: index for pointer to buffer
  * Return: On success 1.
  */
 int print_chr(va_list arguments, char *buf, unsigned int ibuf)
