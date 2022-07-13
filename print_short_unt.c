@@ -2,7 +2,7 @@
 /**
  * prinhunt - prints a short unsigned integer
  * @arguments: number to print
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
