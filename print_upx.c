@@ -2,7 +2,7 @@
 /**
  * print_upx - prints a decimal in hexadecimal
  * @arguments: The character to print
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
