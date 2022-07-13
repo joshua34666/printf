@@ -2,8 +2,8 @@
 
 /**
  * handl_buf - concatenates the buffer characters
- * @buf: buffer pointer
- * @c: charcter to concatenate
+ * @buf: pointer to buffer
+ * @c: charcter to be concatenate
  * @ibuf: index of buffer pointer
  * Return: index of buffer pointer.
  */
