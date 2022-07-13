@@ -2,8 +2,8 @@
 /**
  * fill_oct_array - writes the character c to stdout
  *
- * @bnr: array where is stored the binary.
- * @oct: array where is stored the octal.
+ * @bnr: array which stores  the binary.
+ * @oct: array which stores  the octal.
  *
  * Return: binary array.
  */
