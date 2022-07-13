@@ -2,7 +2,7 @@
 /**
  * prinpint - print integer with plus symbol
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf: pointer to a buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
