@@ -2,7 +2,7 @@
 /**
  * prinlunt - prints a long unsigned integer
  * @arguments: number to print
- * @buf: buffer pointer
+ * @buf: pointer to a buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
