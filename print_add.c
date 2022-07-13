@@ -3,8 +3,8 @@
 /**
  * print_add - prints the address of an input variable
  * @arguments: input address.
- * @buf: buffer pointer.
- * @ibuf: index for buffer pointer
+ * @buf: pointer to the buffer
+ * @ibuf: index for pointer to the buffer
  *
  * Return: number of chars printed.
  */
