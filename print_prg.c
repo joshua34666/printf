@@ -3,7 +3,7 @@
 /**
  * print_prg - writes the character c to stdout
  * @a: input char
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @i: index for buffer pointer
  * Return: On success 1.
  */
