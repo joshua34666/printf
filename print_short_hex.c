@@ -2,7 +2,7 @@
 /**
  * prinhhex - prints a short decimal in hexadecimal
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf: pointer to a buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
