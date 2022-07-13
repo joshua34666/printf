@@ -1,26 +1,31 @@
 #include "main.h"
 
 /**
- * print_str - writes the string to stdout
- * @arguments: input string
- * @buf: buffer pointer
- * @ibuf: index for buffer pointer
- * Return: On success 1.
+ * get_precision - gets the precision from the format string
+ * @p: the format string
+ * @params: the parameters struct
+ * @ap: the argument pointer
+ *
+ * Return: new pointer
  */
-int print_str(va_list arguments, char *buf, unsigned int ibuf)
+char *get_precision(char *p, params_t *params, va_list ap)
 {
-	char *str;
-	unsigned int i;
-	char nill[] = "(null)";
+	int d = 0;
 
-	str = va_arg(arguments, char *);
-	if (str == NULL)
+	if (*p != '.')
+		return (p);
+	p++;
+	if (*p == '*')
 	{
-		for (i = 0; nill[i]; i++)
-			ibuf = handl_buf(buf, nill[i], ibuf);
-		return (6);
+		d = va_arg(ap, int);
+		p++;
 	}
-	for (i = 0; str[i]; i++)
-		ibuf = handl_buf(buf, str[i], ibuf);
-	return (i);
+	else
+	{
+		while (_isdigit(*p))
+			d = d * 10 + (*p++ - '0');
+	}
+
+	params->precision = d;
+	return (p);
 }
