@@ -2,7 +2,7 @@
 /**
  * prinnupx - prints number in uppercase hex
  * @arguments: input string
- * @buf: buffer pointer
+ * @buf:pointer to a buffer
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
