@@ -1,13 +1,8 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
  * _printf - prints anything
  * @format: the format string
-=======
- * _printf - converting formatted output and prints data.
- * @format: input string.
->>>>>>> 677e03caf1de706733629c8cfa85d1439cdf6add
  *
  * Return: number of bytes printed
  */
