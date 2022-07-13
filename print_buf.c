@@ -2,7 +2,7 @@
 
 /**
  * print_buf - prints buffer
- * @buf: buffer pointer
+ * @buf: pointer to buffer
  * @nbuf: number of bytes to print
  * Return: number of bytes printed.
  */
